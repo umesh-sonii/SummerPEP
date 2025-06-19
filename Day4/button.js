@@ -1,9 +1,9 @@
 const button = document.createElement("button");
 
-button.innerHTML = "click me";
+button.innerHTML = "Save";
 
 button.onclick = function() {
-    alert("Button Clicked");
+    alert("Saved");
 };
 
 document.getElementById("container").appendChild(button);
